@@ -5,7 +5,8 @@ layout: default
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
 - [🏆 CTF & Challenges](./CTF-and-Challenges.html)
-
+- [📚 Learning & Training](Learning-and-Training.md)
+- [🧑‍🔬 Personal Labs](Personal-Labs.md)
 
 There should be whitespace between paragraphs.
 
