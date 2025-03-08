@@ -6,7 +6,7 @@ title: "Web Security Academy Notes"
 # 🌐 Web Security Academy Notes
 
 This page contains an outline of my notes on various topics from the Web Security Academy.
-The actual notes/content I keep in remnote.com
+The actual notes/content I keep in remnote.com.
 
 # Server-side Vulnerabilities
 
