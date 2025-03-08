@@ -8,8 +8,6 @@ title: "Whitehatters Computer Security Club (WCSC) Notes"
 This page contains my notes from WCSC meetings at USF.
 
 ## 📌 Meeting Notes
-# Red Teaming & Networking Basics
-
 ## Web Penetration Testing (2/7/24)
 - Majority of Red Teaming involves web penetration testing.
 - Two types: **Web Application Penetration Testing** and **Bug Bounty**.
