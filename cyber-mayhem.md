@@ -5,4 +5,80 @@ title: "Cyber Mayhem"
 
 # 🏴‍☠️ Cyber Mayhem
 
-- [📓 Ippsec Notes](./cyber-mayhem/ippsec.md)
+- mkdir demo
+    - cd /demo
+    - Creating a program in C that will give a random number 
+    - vim random.c
+    - gcc random.c -o random
+    - 
+    - vim exploit.c
+    - gcc exploit.c -shared -o PleaseSubscribe.so
+    - LD_PRELOAD=/home/ippsec/demo/PleaseSubscribe.so ./random
+    - LD_PRELOAD=/home/ippsec/demo/PleaseSubscribe.so ./static
+    - 
+    - vim random.c
+    - vim exploit.c
+    - gcc exploit.c -shared -o PleaseSubscirbe.so
+    - LD_PRELOAD=/home/ippsec/demo/PleaseSubscribe.so ./random
+- github snoopy
+    - a20
+    - Look at installation and use DEVELOPMENT Snoopy
+    - mkdir snoopy
+    - cd snoopy
+    - wget <copy_and_pasted_command>
+    - chmod <copy_and_pasted_command>
+    - ./<copy_and_pasted_command>
+    - sudo ./snoopy-install.sh git-master
+    - sudo snoopy-enable/sudo snoopy-disable
+    - cat /etc/ld.so.preload
+    - mkdir ~/harden
+    - cp /usr/local/lib/libsnoopy.so ~/harden/
+    - ls -la /etc/ld.so.preload
+    - cp /etc/ld.so.preload ~/harden/ 
+    - ls ~/harden/ 
+    - cd /etc/
+    - find . | grep snoopy
+    - cat snoopy.ini
+    - cp snoppy.ini ~/harden/
+    - cd /var/log
+    - sudo su -
+    - cd /var/log
+    - less auth.log
+    - ps -ef | grep 3010
+    - grep flag.txt auth.log (You find the logs here)
+    - 
+- cd ~/harden/ 
+    - ls
+    - ip addr (to find our ip address
+    - python3 -m http.server
+    - On our parrot machine
+    - wget -r <ip> : <port_shown> (Downloads everything in harden)
+    - mv <ip>\: <port>/ secure
+    - cat hbg.sh
+        - #!/bin/bash
+        - 
+        - sshpass -p 52 ssh -o GlobalKnownHostsFile=/dev/null -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no root@$1
+    - cp hbg.sh secure.sh
+    - vim secure.sh
+        - #!/bin/bash
+        - 
+        - sshpass -p 52 scp -o GlobalKnownHostsFile=/dev/null -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no secure/libsnoopy.so root@$1:/usr/local/lib/libsnoopy.so
+        - sshpass -p 52 ssh -o GlobalKnownHostsFile=/dev/null -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no root@$1 "echo '/usr/local/lib/libsnoopy.so > > /etc/ld.so.preload; echo '[snoopy]' > /etc/snoopy.ini; service apache2 restart; service smbd restart"
+    - 
+- Another machine
+    - sudo apt install openssh-server
+    - sudo apt update 
+    - sudo dhclient -i -v
+    - vi /etc/ssh/sshd_config
+    - sudo systemctl restart ssh
+    - passwd
+    - ip addr
+    - IN parrot box...
+    - ./secure.sh <machine_ip> : <password>
+    - Back in machine
+    - vi /opt/PleaseSubscribe.txt
+    - exit
+    - sudo su -
+    - cat /opt/PleaseSubscribe.txt
+    - cat /var/log/auth.log | grep -i PleaseSubscribe
+    - queuing up for a game!
