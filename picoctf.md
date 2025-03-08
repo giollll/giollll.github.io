@@ -9,12 +9,12 @@ This page contains my notes and solutions for various challenges in PicoCTF, cat
 
 ## 📌 Categories
 
-- [🟢 Primer](./picoctf/primer.md)
-- [🌐 Web Exploitation](./picoctf/web-exploitation.md)
-- [🔐 Cryptography](./picoctf/cryptography.md)
-- [🔄 Reverse Engineering](./picoctf/reverse-engineering.md)
-- [🕵️‍♂️ Forensics](./picoctf/forensics.md)
-- [🛠️ General Skills](./picoctf/general-skills.md)
-- [🏹 Binary Exploitation](./picoctf/binary-exploitation.md)
-- [❓ Uncategorized](./picoctf/uncategorized.md)
+- [🟢 Primer](./primer.md)
+- [🌐 Web Exploitation](./web-exploitation.md)
+- [🔐 Cryptography](./cryptography.md)
+- [🔄 Reverse Engineering](./reverse-engineering.md)
+- [🕵️‍♂️ Forensics](./forensics.md)
+- [🛠️ General Skills](./general-skills.md)
+- [🏹 Binary Exploitation](./binary-exploitation.md)
+- [❓ Uncategorized](./uncategorized.md)
 
