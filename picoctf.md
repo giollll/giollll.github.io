@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "PicoCTF Notes"
+title: "PicoCTF Notes :)"
 ---
 
 # 🏆 PicoCTF Notes
