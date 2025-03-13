@@ -4,6 +4,7 @@ title: "Cyber Mayhem"
 ---
 
 # 🏴‍☠️ Cyber Mayhem
+Some notes I took to play HackTheBox Cyber Mayhem.
 
 - mkdir demo
     - cd /demo
