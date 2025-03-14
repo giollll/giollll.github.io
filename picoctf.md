@@ -41,6 +41,45 @@ This page contains my notes and solutions for various challenges in PicoCTF, cat
   - Get through until the otp request.
   - Take out the "otp=" line.
   - It should give you the flag. We basically bypassed the OTP request.
+- ## Bookmarklet
+1. Go to bookmarks and right-click on **"All Bookmarks"**, then select **"Add Page"** (Chrome).
+2. Set the name as **"Find Flag"**.
+3. Copy and paste the JavaScript code, save it, then click on it.
+4. It should give you the flag.
+
+- **Note:**  
+Bookmarklets are JavaScript scripts saved as browser bookmarks. They run on the webpage you're viewing, allowing you to automate tasks or extract information, but only affect your view.
+
+- ## Local Authority
+1. Use the login website and trigger a failed login attempt.
+2. Inspect the page and look into **Sources**.
+3. There should be a program that reveals a **username and password**.
+4. Use that username and password to log in.
+5. Once logged in, the flag should be displayed.
+
+- ## Inspect HTML
+1. Open the website.
+2. Right-click and select **Inspect**.
+3. Navigate to the **Sources** tab.
+4. The flag should be there.
+
+- ## Includes
+1. Go to the website and inspect the page.
+2. Look into **Sources**.
+3. Check the two different files—parts of the flag should be there.
+
+- ## Cookies
+1. Open the website and inspect it.
+2. Locate the **cookie** that exists on the website.
+3. Find the **cookie ID** and modify it (try values from `1-18`) until you find the flag.
+
+- ## Scavenger Hunt
+1. Go to the website and **view page source**.
+2. Inspect the **Sources** tab.
+3. Look into:
+   - **robots.txt** – Can reveal hidden or restricted directories.
+   - **.htaccess** – May contain access control rules.
+   - **.DS_Store** – A macOS metadata file that stores information about how files are arranged in a directory (icons, positions, etc.).
 
 #### **Cryptography**
 - **Cyber chef**
