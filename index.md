@@ -13,6 +13,7 @@ layout: default
 - [Letsdefend](./letsdefend.md)
 - [WCSC](./wcsc.md)
 - [BTLO](./btlo.md)
+- [Sherlocks](./sherlocks.md)
 
 ### 📚 Learning & Training
 - [Web Security Academy](./web-security-academy.md)
