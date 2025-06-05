@@ -16,3 +16,7 @@ A personal log of Sherlocks challenges I’ve worked on in Hack The Box.
 ## Challenge: Dream Job
 ### Key Takeaways
 - VirusTotal and attack.mitre.org are helpful when analyzing IOCs and malware behavior.
+
+## Challenge: ElectricBreeze-1
+### Key Takeaways
+- attack.mitre.org site is helpful for threat intelligence
