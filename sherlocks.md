@@ -20,3 +20,7 @@ A personal log of Sherlocks challenges I’ve worked on in Hack The Box.
 ## Challenge: ElectricBreeze-1
 ### Key Takeaways
 - attack.mitre.org site is helpful for threat intelligence
+
+## Challenge: Origins
+### Key Takeaways
+- You can download files from a pcap capture!
