@@ -24,3 +24,7 @@ A personal log of Sherlocks challenges I’ve worked on in Hack The Box.
 ## Challenge: Origins
 ### Key Takeaways
 - You can download files from a pcap capture!
+
+## Challenge: UFO-1
+### Key Takeaways
+- I need to work on using the mittre framework.
