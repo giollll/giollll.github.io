@@ -110,3 +110,5 @@ Security auditing configurations were put to the test by modifying a local Windo
 Finally, changes made to the system's auditing configuration commands were successfully logged, ensuring that any attempts by an adversary to alter logging policies to hide their tracks would be caught.
 
 ![System Audit Policy Changes Logged](images/system_audit_changes.png)
+
+I couldn't find anything in Wazuh for the screenshot above. I could only find the changes in Event Viewer.
